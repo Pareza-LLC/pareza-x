@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "com.parezaapp.app",
+        "appID": "6J72UHVN5X.com.parezaapp.app",
         "paths": [ "/login/*", "/auth/*" ]
       }
     ]
