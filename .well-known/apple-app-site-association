@@ -1,11 +1,22 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "6J72UHVN5X.com.parezaapp.app",
-        "paths": [ "/login/*", "/auth/*" ]
+        "appIDs": [ "6J72UHVN5X.com.parezaapp.app" ],
+        "components": [
+          {
+            "/": "/login/*",
+            "comment": "Matches login paths"
+          },
+          {
+            "/": "/auth/*",
+            "comment": "Matches authentication paths"
+          }
+        ]
       }
     ]
-  }
+  },
+  "webcredentials": {
+     "apps": [ "6J72UHVN5X.com.parezaapp.app" ]
+  },
 }
